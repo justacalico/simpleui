@@ -1,7 +1,7 @@
 {
   "name": "SimpleUI",
-  "subtitle": "A simple ComfyUI client",
-  "description": "Generate images with ComfyUI from a single prompt box.",
+  "subtitle": "A privacy-friendly YouTube client",
+  "description": "Watch YouTube without the ads, the tracking or the clutter.",
   "iconURL": "https://gitlab.com/HttpAnimations/simpleui/-/raw/main/assets/icon/icon.png",
   "website": "https://gitlab.com/HttpAnimations/simpleui",
   "sourceURL": "https://gitlab.com/HttpAnimations/simpleui/-/raw/main/repos/altstore.json",
@@ -10,13 +10,22 @@
       "name": "SimpleUI",
       "bundleIdentifier": "gitlab.httpanimations.simpleui",
       "developerName": "HttpAnimations",
-      "subtitle": "A simple ComfyUI client",
-      "localizedDescription": "Generate images with ComfyUI from a single prompt box.",
+      "subtitle": "A privacy-friendly YouTube client",
+      "localizedDescription": "Watch YouTube without the ads, the tracking or the clutter.",
       "iconURL": "https://gitlab.com/HttpAnimations/simpleui/-/raw/main/assets/icon/icon.png",
-      "tintColor": "#6C5CE7",
-      "category": "utilities",
+      "tintColor": "#C02026",
+      "category": "entertainment",
       "screenshots": [],
-      "versions": [],
+      "versions": [
+        {
+          "version": "0.0.1",
+          "date": "2026-10-15",
+          "localizedDescription": "See the release notes for changes.",
+          "downloadURL": "https://gitlab.com/HttpAnimations/simpleui/-/releases/v0.0.1/downloads/simpleui-0.0.1-ios.ipa",
+          "size": 8419922,
+          "minOSVersion": "14.0"
+        }
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
