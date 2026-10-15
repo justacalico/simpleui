@@ -44,7 +44,7 @@ flatpak install simpleui gitlab.httpanimations.simpleui
 
 ### iOS (AltStore)
 
-Add the source `https://gitlab.com/HttpAnimations/simpleui/-/raw/main/repos/altstore.json` in AltStore, then install SimpleUI.
+Add the [AltStore source](https://gitlab.com/HttpAnimations/simpleui/-/raw/main/repos/altstore.json) in AltStore, then install SimpleUI.
 
 ## License
 
