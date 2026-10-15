@@ -1,0 +1,27 @@
+{
+  "name": "SimpleUI",
+  "subtitle": "A simple ComfyUI client",
+  "description": "Generate images with ComfyUI from a single prompt box.",
+  "iconURL": "https://gitlab.com/HttpAnimations/simpleui/-/raw/main/assets/icon/icon.png",
+  "website": "https://gitlab.com/HttpAnimations/simpleui",
+  "sourceURL": "https://gitlab.com/HttpAnimations/simpleui/-/raw/main/repos/altstore.json",
+  "apps": [
+    {
+      "name": "SimpleUI",
+      "bundleIdentifier": "gitlab.httpanimations.simpleui",
+      "developerName": "HttpAnimations",
+      "subtitle": "A simple ComfyUI client",
+      "localizedDescription": "Generate images with ComfyUI from a single prompt box.",
+      "iconURL": "https://gitlab.com/HttpAnimations/simpleui/-/raw/main/assets/icon/icon.png",
+      "tintColor": "#6C5CE7",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}

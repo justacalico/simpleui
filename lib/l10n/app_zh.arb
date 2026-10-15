@@ -1,0 +1,176 @@
+{
+  "@@locale": "zh",
+  "appTitle": "SimpleUI",
+  "navGenerate": "生成",
+  "navGallery": "画廊",
+  "navQueue": "队列",
+  "navWorkflows": "工作流",
+  "navSettings": "设置",
+  "navMore": "更多",
+  "expandSidebar": "展开侧栏",
+  "collapseSidebar": "收起侧栏",
+  "generateHeadline": "你想创作什么？",
+  "promptHint": "描述你想要的图像…",
+  "advancedOptions": "高级选项",
+  "generate": "生成",
+  "negativePrompt": "负面提示词",
+  "model": "模型",
+  "sampler": "采样器",
+  "scheduler": "调度器",
+  "steps": "步数",
+  "cfg": "CFG",
+  "seed": "种子",
+  "randomSeed": "随机种子",
+  "keepSeed": "固定种子",
+  "batchCount": "批量：{count}",
+  "@batchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "jobQueued": "排队中",
+  "jobRunning": "生成中… {progress}%",
+  "@jobRunning": {
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      }
+    }
+  },
+  "jobDone": "完成",
+  "jobFailed": "失败",
+  "jobInterrupted": "已中断",
+  "emptyResults": "还没有内容。描述一张图像，然后点击生成。",
+  "latestResult": "最新结果",
+  "galleryEmpty": "还没有生成记录",
+  "queueSummary": "{running} 个运行中 · {pending} 个排队中",
+  "@queueSummary": {
+    "placeholders": {
+      "running": {
+        "type": "int"
+      },
+      "pending": {
+        "type": "int"
+      }
+    }
+  },
+  "refresh": "刷新",
+  "interrupt": "中断",
+  "clearQueue": "清空队列",
+  "queueEmpty": "队列为空",
+  "untitledJob": "（无提示词）",
+  "imageCount": "{count} 张图像",
+  "@imageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workflowsIntro": "选择用于生成的 ComfyUI 工作流。导入 API 格式的工作流 JSON 以自定义图。",
+  "importWorkflow": "导入工作流",
+  "workflowName": "名称",
+  "workflowJson": "工作流 JSON（API 格式）",
+  "loadFromFile": "从文件加载",
+  "cancel": "取消",
+  "importAction": "导入",
+  "invalidWorkflow": "这不是有效的 API 格式工作流",
+  "workflowImported": "工作流已导入",
+  "builtinWorkflowName": "文生图",
+  "builtinWorkflowDesc": "内置 txt2img：checkpoint、提示词、采样器和尺寸",
+  "nodeCount": "{count} 个节点",
+  "@nodeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "serverSection": "ComfyUI 服务器",
+  "serverUrl": "服务器地址",
+  "invalidServerUrl": "请输入有效的 http(s) 地址",
+  "testConnection": "测试连接",
+  "serverOk": "已连接 · {version}，设备 {device}",
+  "@serverOk": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "serverFailed": "无法连接服务器",
+  "serverHint": "指向一个正在运行的 ComfyUI 实例",
+  "appearanceSection": "外观",
+  "theme": "主题",
+  "themeSystem": "跟随系统",
+  "themeLight": "浅色",
+  "themeDark": "深色",
+  "themeOled": "OLED",
+  "accentColor": "主题色",
+  "language": "语言",
+  "languageSystem": "跟随系统",
+  "aboutSection": "关于",
+  "versionLabel": "版本 {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "checkUpdates": "检查更新",
+  "updateChecking": "正在检查…",
+  "updateFailed": "检查更新失败",
+  "updateAvailable": "新版本 {version} 可用",
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "upToDate": "已是最新",
+  "getUpdate": "获取 {version}",
+  "@getUpdate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "releasesLink": "所有版本",
+  "sourceLink": "源代码",
+  "saveImage": "保存图像",
+  "delete": "删除",
+  "detailMeta": "模型 {model} · 种子 {seed} · {steps} 步 · CFG {cfg} · {sampler}/{scheduler} · {size}",
+  "@detailMeta": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      },
+      "seed": {
+        "type": "int"
+      },
+      "steps": {
+        "type": "int"
+      },
+      "cfg": {
+        "type": "double"
+      },
+      "sampler": {
+        "type": "String"
+      },
+      "scheduler": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  }
+}

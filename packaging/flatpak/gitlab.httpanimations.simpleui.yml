@@ -1,0 +1,23 @@
+app-id: gitlab.httpanimations.simpleui
+runtime: org.freedesktop.Platform
+runtime-version: "24.08"
+sdk: org.freedesktop.Sdk
+command: simpleui
+finish-args:
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --share=network
+  - --device=dri
+modules:
+  - name: simpleui
+    buildsystem: simple
+    build-commands:
+      - mkdir -p /app/lib/simpleui /app/bin
+      - cp -r bundle/. /app/lib/simpleui/
+      - install -Dm755 packaging/flatpak/simpleui.sh /app/bin/simpleui
+      - install -Dm644 packaging/linux/simpleui.desktop /app/share/applications/gitlab.httpanimations.simpleui.desktop
+      - install -Dm644 packaging/linux/simpleui.png /app/share/icons/hicolor/256x256/apps/gitlab.httpanimations.simpleui.png
+      - install -Dm644 packaging/linux/gitlab.httpanimations.simpleui.metainfo.xml /app/share/metainfo/gitlab.httpanimations.simpleui.metainfo.xml
+    sources:
+      - type: dir
+        path: ../..

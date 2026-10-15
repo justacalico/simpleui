@@ -1,0 +1,176 @@
+{
+  "@@locale": "ga",
+  "appTitle": "SimpleUI",
+  "navGenerate": "Gin",
+  "navGallery": "Gailearaí",
+  "navQueue": "Scuaine",
+  "navWorkflows": "Sreabhadh oibre",
+  "navSettings": "Socruithe",
+  "navMore": "Tuilleadh",
+  "expandSidebar": "Leathnaigh an bharra taobh",
+  "collapseSidebar": "Laghdaigh an bharra taobh",
+  "generateHeadline": "Cad is mian leat a chruthú?",
+  "promptHint": "Déan cur síos ar an íomhá atá uait…",
+  "advancedOptions": "Ardroghanna",
+  "generate": "Gin",
+  "negativePrompt": "Leid dhiúltach",
+  "model": "Samhail",
+  "sampler": "Samplálaí",
+  "scheduler": "Sceidealaitheoir",
+  "steps": "Céimeanna",
+  "cfg": "CFG",
+  "seed": "Síol",
+  "randomSeed": "Síol randamach",
+  "keepSeed": "Coinnigh an síol",
+  "batchCount": "Baisc: {count}",
+  "@batchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "jobQueued": "Sa scuaine",
+  "jobRunning": "Á ghiniúint… {progress}%",
+  "@jobRunning": {
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      }
+    }
+  },
+  "jobDone": "Déanta",
+  "jobFailed": "Theip",
+  "jobInterrupted": "Curtha isteach",
+  "emptyResults": "Tada anseo go fóil. Déan cur síos ar íomhá agus brúigh Gin.",
+  "latestResult": "An toradh is déanaí",
+  "galleryEmpty": "Gan aon ghiniúint go fóil",
+  "queueSummary": "{running} á rith · {pending} sa scuaine",
+  "@queueSummary": {
+    "placeholders": {
+      "running": {
+        "type": "int"
+      },
+      "pending": {
+        "type": "int"
+      }
+    }
+  },
+  "refresh": "Athnuaigh",
+  "interrupt": "Cuir isteach",
+  "clearQueue": "Glan an scuaine",
+  "queueEmpty": "Tá an scuaine folamh",
+  "untitledJob": "(gan leid)",
+  "imageCount": "{count} íomhá",
+  "@imageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workflowsIntro": "Roghnaigh an sreabhadh oibre ComfyUI a thiomáineann an ghiniúint. Iompórtáil JSON sreabhadh oibre API chun an graf a shaincheapadh.",
+  "importWorkflow": "Iompórtáil sreabhadh oibre",
+  "workflowName": "Ainm",
+  "workflowJson": "JSON sreabhadh oibre (formáid API)",
+  "loadFromFile": "Luchtaigh ó chomhad",
+  "cancel": "Cealaigh",
+  "importAction": "Iompórtáil",
+  "invalidWorkflow": "Ní cosúil gur sreabhadh oibre API é sin",
+  "workflowImported": "Sreabhadh oibre iompórtáilte",
+  "builtinWorkflowName": "Téacs go híomhá",
+  "builtinWorkflowDesc": "txt2img ionsuite: checkpoint, leideanna, samplálaí agus méid",
+  "nodeCount": "{count} nód",
+  "@nodeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "serverSection": "Freastalaí ComfyUI",
+  "serverUrl": "URL an fhreastalaí",
+  "invalidServerUrl": "Cuir isteach URL http(s) bailí",
+  "testConnection": "Tástáil an nasc",
+  "serverOk": "Ceangailte · {version} ar {device}",
+  "@serverOk": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "serverFailed": "Níorbh fhéidir teagmháil a dhéanamh leis an bhfreastalaí",
+  "serverHint": "Pointigh é seo ag instans ComfyUI atá ag rith",
+  "appearanceSection": "Cuma",
+  "theme": "Téama",
+  "themeSystem": "Córas",
+  "themeLight": "Solas",
+  "themeDark": "Dorcha",
+  "themeOled": "OLED",
+  "accentColor": "Dath béime",
+  "language": "Teanga",
+  "languageSystem": "Córas",
+  "aboutSection": "Maidir leis",
+  "versionLabel": "Leagan {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "checkUpdates": "Seiceáil le haghaidh nuashonruithe",
+  "updateChecking": "Á sheiceáil…",
+  "updateFailed": "Theip ar sheiceáil nuashonruithe",
+  "updateAvailable": "Tá leagan {version} ar fáil",
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "upToDate": "Nuashonraithe",
+  "getUpdate": "Faigh {version}",
+  "@getUpdate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "releasesLink": "Gach eisiúint",
+  "sourceLink": "Cód foinseach",
+  "saveImage": "Sábháil an íomhá",
+  "delete": "Scrios",
+  "detailMeta": "Samhail {model} · síol {seed} · {steps} céim · CFG {cfg} · {sampler}/{scheduler} · {size}",
+  "@detailMeta": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      },
+      "seed": {
+        "type": "int"
+      },
+      "steps": {
+        "type": "int"
+      },
+      "cfg": {
+        "type": "double"
+      },
+      "sampler": {
+        "type": "String"
+      },
+      "scheduler": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  }
+}

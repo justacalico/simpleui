@@ -1,0 +1,176 @@
+{
+  "@@locale": "ru",
+  "appTitle": "SimpleUI",
+  "navGenerate": "Создать",
+  "navGallery": "Галерея",
+  "navQueue": "Очередь",
+  "navWorkflows": "Воркфлоу",
+  "navSettings": "Настройки",
+  "navMore": "Ещё",
+  "expandSidebar": "Развернуть панель",
+  "collapseSidebar": "Свернуть панель",
+  "generateHeadline": "Что вы хотите создать?",
+  "promptHint": "Опишите нужное изображение…",
+  "advancedOptions": "Дополнительно",
+  "generate": "Создать",
+  "negativePrompt": "Негативный промпт",
+  "model": "Модель",
+  "sampler": "Сэмплер",
+  "scheduler": "Планировщик",
+  "steps": "Шаги",
+  "cfg": "CFG",
+  "seed": "Сид",
+  "randomSeed": "Случайный сид",
+  "keepSeed": "Фиксировать сид",
+  "batchCount": "Пакет: {count}",
+  "@batchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "jobQueued": "В очереди",
+  "jobRunning": "Создание… {progress}%",
+  "@jobRunning": {
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      }
+    }
+  },
+  "jobDone": "Готово",
+  "jobFailed": "Ошибка",
+  "jobInterrupted": "Прервано",
+  "emptyResults": "Пока пусто. Опишите изображение и нажмите «Создать».",
+  "latestResult": "Последний результат",
+  "galleryEmpty": "Пока нет генераций",
+  "queueSummary": "Выполняется: {running} · в очереди: {pending}",
+  "@queueSummary": {
+    "placeholders": {
+      "running": {
+        "type": "int"
+      },
+      "pending": {
+        "type": "int"
+      }
+    }
+  },
+  "refresh": "Обновить",
+  "interrupt": "Прервать",
+  "clearQueue": "Очистить очередь",
+  "queueEmpty": "Очередь пуста",
+  "untitledJob": "(без промпта)",
+  "imageCount": "изображений: {count}",
+  "@imageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workflowsIntro": "Выберите воркфлоу ComfyUI для генерации. Импортируйте JSON в API-формате, чтобы настроить граф.",
+  "importWorkflow": "Импорт воркфлоу",
+  "workflowName": "Название",
+  "workflowJson": "JSON воркфлоу (API-формат)",
+  "loadFromFile": "Загрузить из файла",
+  "cancel": "Отмена",
+  "importAction": "Импорт",
+  "invalidWorkflow": "Это не похоже на воркфлоу в API-формате",
+  "workflowImported": "Воркфлоу импортирован",
+  "builtinWorkflowName": "Текст в изображение",
+  "builtinWorkflowDesc": "Встроенный txt2img: чекпоинт, промпты, сэмплер и размер",
+  "nodeCount": "Узлов: {count}",
+  "@nodeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "serverSection": "Сервер ComfyUI",
+  "serverUrl": "Адрес сервера",
+  "invalidServerUrl": "Введите корректный http(s) адрес",
+  "testConnection": "Проверить соединение",
+  "serverOk": "Подключено · {version} на {device}",
+  "@serverOk": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "serverFailed": "Не удалось подключиться к серверу",
+  "serverHint": "Укажите запущенный экземпляр ComfyUI",
+  "appearanceSection": "Внешний вид",
+  "theme": "Тема",
+  "themeSystem": "Системная",
+  "themeLight": "Светлая",
+  "themeDark": "Тёмная",
+  "themeOled": "OLED",
+  "accentColor": "Акцентный цвет",
+  "language": "Язык",
+  "languageSystem": "Системный",
+  "aboutSection": "О приложении",
+  "versionLabel": "Версия {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "checkUpdates": "Проверить обновления",
+  "updateChecking": "Проверка…",
+  "updateFailed": "Не удалось проверить обновления",
+  "updateAvailable": "Доступна версия {version}",
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "upToDate": "Установлена последняя версия",
+  "getUpdate": "Скачать {version}",
+  "@getUpdate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "releasesLink": "Все релизы",
+  "sourceLink": "Исходный код",
+  "saveImage": "Сохранить изображение",
+  "delete": "Удалить",
+  "detailMeta": "Модель {model} · сид {seed} · шагов: {steps} · CFG {cfg} · {sampler}/{scheduler} · {size}",
+  "@detailMeta": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      },
+      "seed": {
+        "type": "int"
+      },
+      "steps": {
+        "type": "int"
+      },
+      "cfg": {
+        "type": "double"
+      },
+      "sampler": {
+        "type": "String"
+      },
+      "scheduler": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  }
+}

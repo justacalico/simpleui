@@ -1,0 +1,176 @@
+{
+  "@@locale": "en",
+  "appTitle": "SimpleUI",
+  "navGenerate": "Generate",
+  "navGallery": "Gallery",
+  "navQueue": "Queue",
+  "navWorkflows": "Workflows",
+  "navSettings": "Settings",
+  "navMore": "More",
+  "expandSidebar": "Expand sidebar",
+  "collapseSidebar": "Collapse sidebar",
+  "generateHeadline": "What do you want to create?",
+  "promptHint": "Describe the image you want…",
+  "advancedOptions": "Advanced options",
+  "generate": "Generate",
+  "negativePrompt": "Negative prompt",
+  "model": "Model",
+  "sampler": "Sampler",
+  "scheduler": "Scheduler",
+  "steps": "Steps",
+  "cfg": "CFG",
+  "seed": "Seed",
+  "randomSeed": "Random seed",
+  "keepSeed": "Keep seed",
+  "batchCount": "Batch: {count}",
+  "@batchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "jobQueued": "Queued",
+  "jobRunning": "Generating… {progress}%",
+  "@jobRunning": {
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      }
+    }
+  },
+  "jobDone": "Done",
+  "jobFailed": "Failed",
+  "jobInterrupted": "Interrupted",
+  "emptyResults": "Nothing here yet. Describe an image and press Generate.",
+  "latestResult": "Latest result",
+  "galleryEmpty": "No generations yet",
+  "queueSummary": "{running} running · {pending} queued",
+  "@queueSummary": {
+    "placeholders": {
+      "running": {
+        "type": "int"
+      },
+      "pending": {
+        "type": "int"
+      }
+    }
+  },
+  "refresh": "Refresh",
+  "interrupt": "Interrupt",
+  "clearQueue": "Clear queue",
+  "queueEmpty": "The queue is empty",
+  "untitledJob": "(no prompt)",
+  "imageCount": "{count} image(s)",
+  "@imageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workflowsIntro": "Pick which ComfyUI workflow drives generation. Import an API-format workflow JSON to customise the graph.",
+  "importWorkflow": "Import workflow",
+  "workflowName": "Name",
+  "workflowJson": "Workflow JSON (API format)",
+  "loadFromFile": "Load from file",
+  "cancel": "Cancel",
+  "importAction": "Import",
+  "invalidWorkflow": "That does not look like an API-format workflow",
+  "workflowImported": "Workflow imported",
+  "builtinWorkflowName": "Text to image",
+  "builtinWorkflowDesc": "Built-in txt2img: checkpoint, prompts, sampler and latent size",
+  "nodeCount": "{count} nodes",
+  "@nodeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "serverSection": "ComfyUI server",
+  "serverUrl": "Server URL",
+  "invalidServerUrl": "Enter a valid http(s) URL",
+  "testConnection": "Test connection",
+  "serverOk": "Connected · {version} on {device}",
+  "@serverOk": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "serverFailed": "Could not reach the server",
+  "serverHint": "Point this at a running ComfyUI instance",
+  "appearanceSection": "Appearance",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeOled": "OLED",
+  "accentColor": "Accent colour",
+  "language": "Language",
+  "languageSystem": "System",
+  "aboutSection": "About",
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "checkUpdates": "Check for updates",
+  "updateChecking": "Checking…",
+  "updateFailed": "Update check failed",
+  "updateAvailable": "Version {version} is available",
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "upToDate": "Up to date",
+  "getUpdate": "Get {version}",
+  "@getUpdate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "releasesLink": "All releases",
+  "sourceLink": "Source code",
+  "saveImage": "Save image",
+  "delete": "Delete",
+  "detailMeta": "Model {model} · seed {seed} · {steps} steps · CFG {cfg} · {sampler}/{scheduler} · {size}",
+  "@detailMeta": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      },
+      "seed": {
+        "type": "int"
+      },
+      "steps": {
+        "type": "int"
+      },
+      "cfg": {
+        "type": "double"
+      },
+      "sampler": {
+        "type": "String"
+      },
+      "scheduler": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  }
+}

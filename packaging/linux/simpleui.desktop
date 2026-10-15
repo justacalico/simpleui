@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SimpleUI
+Comment=A simple ComfyUI client
+Exec=simpleui
+Icon=gitlab.httpanimations.simpleui
+Terminal=false
+Type=Application
+Categories=Graphics;Network;
+StartupWMClass=simpleui
