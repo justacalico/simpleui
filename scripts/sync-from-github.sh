@@ -135,6 +135,6 @@ if [ -n "${GITLAB_RELEASE_SSH_KEY:-}" ]; then
   if ! git diff --quiet repos/altstore.json 2>/dev/null; then
     git add repos/altstore.json
     git -c user.name="GitLab CI" -c user.email="ci@gitlab.com"       commit -m "chore: 更新 AltStore 源到 $RELEASE_TAG"
-    git push -o ci.skip gitlab-ssh HEAD:main || true
+    git push gitlab-ssh HEAD:main || true
   fi
 fi
