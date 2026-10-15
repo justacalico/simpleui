@@ -104,6 +104,9 @@ jobs:
       - name: Check formatting
         run: dart format --set-exit-if-changed lib test
 
+      - name: Landing pub get
+        run: cd landing && flutter pub get
+
       - name: Analyze
         run: flutter analyze --no-fatal-infos
 
@@ -135,7 +138,6 @@ jobs:
       - name: Landing analyze and test
         run: |
           cd landing
-          flutter pub get
           flutter analyze --no-fatal-infos
           flutter test
 
